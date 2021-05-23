@@ -6,7 +6,6 @@ import { db } from "../firebase";
 const HomeScreen = ({ history }) => {
   const [weight, setWeight] = useState("");
   const [allWeight, setAllWeight] = useState([]);
-  
 
   const userLogin = useSelector((state) => state.userLogin);
   const { userInfo } = userLogin;
@@ -14,8 +13,9 @@ const HomeScreen = ({ history }) => {
   useEffect(() => {
     if (!userInfo) {
       history.push("/");
+    } else {
+      getAllWeight();
     }
-    getAllWeight();
   }, [history, userInfo]);
 
   // adding data to firestore
@@ -60,7 +60,9 @@ const HomeScreen = ({ history }) => {
           type="number"
           min="0"
         />
-        <button><i className="fas fa-plus"></i></button>
+        <button>
+          <i className="fas fa-plus"></i>
+        </button>
       </form>
 
       {filteredWeights.length > 0 ? (
@@ -75,7 +77,6 @@ const HomeScreen = ({ history }) => {
       ) : (
         <h2 className="no-weights">Add weight in your list</h2>
       )}
-      
     </div>
   );
 };
