@@ -1,0 +1,103 @@
+[debug] [2021-05-23T10:53:01.432Z] ----------------------------------------------------------------------
+[debug] [2021-05-23T10:53:01.436Z] Command:       C:\Program Files\nodejs\node.exe C:\Users\91700\AppData\Roaming\npm\node_modules\firebase-tools\lib\bin\firebase.js init
+[debug] [2021-05-23T10:53:01.437Z] CLI Version:   9.11.0
+[debug] [2021-05-23T10:53:01.437Z] Platform:      win32
+[debug] [2021-05-23T10:53:01.437Z] Node Version:  v14.15.3
+[debug] [2021-05-23T10:53:01.438Z] Time:          Sun May 23 2021 16:23:01 GMT+0530 (India Standard Time)
+[debug] [2021-05-23T10:53:01.438Z] ----------------------------------------------------------------------
+[debug] 
+[debug] [2021-05-23T10:53:01.448Z] > command requires scopes: ["email","openid","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","https://www.googleapis.com/auth/cloud-platform"]
+[debug] [2021-05-23T10:53:01.449Z] > authorizing via signed-in user (kssklol925@gmail.com)
+[info] 
+     ######## #### ########  ######## ########     ###     ######  ########
+     ##        ##  ##     ## ##       ##     ##  ##   ##  ##       ##
+     ######    ##  ########  ######   ########  #########  ######  ######
+     ##        ##  ##    ##  ##       ##     ## ##     ##       ## ##
+     ##       #### ##     ## ######## ########  ##     ##  ######  ########
+
+You're about to initialize a Firebase project in this directory:
+
+  C:\Users\91700\Desktop\weight
+
+[info] 
+=== Project Setup
+[info] 
+[info] First, let's associate this project directory with a Firebase project.
+[info] You can create multiple project aliases by running firebase use --add, 
+[info] but for now we'll just set up a default project.
+[info] 
+[debug] [2021-05-23T10:53:25.643Z] >>> [apiv2][query] GET https://firebase.googleapis.com/v1beta1/projects pageSize=100
+[debug] [2021-05-23T10:53:26.779Z] <<< [apiv2][status] GET https://firebase.googleapis.com/v1beta1/projects 200
+[debug] [2021-05-23T10:53:26.779Z] <<< [apiv2][body] GET https://firebase.googleapis.com/v1beta1/projects [omitted]
+[info] i  Using project weight-tracking-b1541 (Weight Tracking) 
+[info] 
+=== Hosting Setup
+[info] 
+[info] Your public directory is the folder (relative to your project directory) that
+[info] will contain Hosting assets to be uploaded with firebase deploy. If you
+[info] have a build process for your assets, use your build's output directory.
+[info] 
+[debug] [2021-05-23T10:53:49.331Z] >>> [apiv2][query] GET https://www.gstatic.com/firebasejs/releases.json [none]
+[debug] [2021-05-23T10:53:49.670Z] <<< [apiv2][status] GET https://www.gstatic.com/firebasejs/releases.json 200
+[debug] [2021-05-23T10:53:49.671Z] <<< [apiv2][body] GET https://www.gstatic.com/firebasejs/releases.json {"current":{"version":"8.6.2","browserURL":"https://www.gstatic.com/firebasejs/8.6.2/firebase.js","packageURL":"https://www.gstatic.com/firebasejs/8.6.2/firebase.tgz"},"live":{"version":"8.6","browserURL":"https://www.gstatic.com/firebasejs/live/8.6/firebase.js","packageURL":"https://www.gstatic.com/firebasejs/live/8.6/firebase.tgz"},"components":{"analytics":"https://www.gstatic.com/firebasejs/8.6.2/firebase-analytics.js","app":"https://www.gstatic.com/firebasejs/8.6.2/firebase-app.js","app-check":"https://www.gstatic.com/firebasejs/8.6.2/firebase-app-check.js","auth":"https://www.gstatic.com/firebasejs/8.6.2/firebase-auth.js","database":"https://www.gstatic.com/firebasejs/8.6.2/firebase-database.js","firestore":"https://www.gstatic.com/firebasejs/8.6.2/firebase-firestore.js","functions":"https://www.gstatic.com/firebasejs/8.6.2/firebase-functions.js","installations":"https://www.gstatic.com/firebasejs/8.6.2/firebase-installations.js","messaging":"https://www.gstatic.com/firebasejs/8.6.2/firebase-messaging.js","storage":"https://www.gstatic.com/firebasejs/8.6.2/firebase-storage.js","performance":"https://www.gstatic.com/firebasejs/8.6.2/firebase-performance.js","remote-config":"https://www.gstatic.com/firebasejs/8.6.2/firebase-remote-config.js","firestore.memory":"https://www.gstatic.com/firebasejs/8.6.2/firebase-firestore.memory.js"}}
+[debug] [2021-05-23T10:54:31.435Z] ----------------------------------------------------------------------
+[debug] [2021-05-23T10:54:31.438Z] Command:       C:\Program Files\nodejs\node.exe C:\Users\91700\AppData\Roaming\npm\node_modules\firebase-tools\lib\bin\firebase.js init
+[debug] [2021-05-23T10:54:31.439Z] CLI Version:   9.11.0
+[debug] [2021-05-23T10:54:31.439Z] Platform:      win32
+[debug] [2021-05-23T10:54:31.439Z] Node Version:  v14.15.3
+[debug] [2021-05-23T10:54:31.440Z] Time:          Sun May 23 2021 16:24:31 GMT+0530 (India Standard Time)
+[debug] [2021-05-23T10:54:31.441Z] ----------------------------------------------------------------------
+[debug] 
+[debug] [2021-05-23T10:54:31.450Z] > command requires scopes: ["email","openid","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","https://www.googleapis.com/auth/cloud-platform"]
+[debug] [2021-05-23T10:54:31.451Z] > authorizing via signed-in user (kssklol925@gmail.com)
+[info] 
+     ######## #### ########  ######## ########     ###     ######  ########
+     ##        ##  ##     ## ##       ##     ##  ##   ##  ##       ##
+     ######    ##  ########  ######   ########  #########  ######  ######
+     ##        ##  ##    ##  ##       ##     ## ##     ##       ## ##
+     ##       #### ##     ## ######## ########  ##     ##  ######  ########
+
+You're about to initialize a Firebase project in this directory:
+
+  C:\Users\91700\Desktop\weight
+
+[info] 
+=== Project Setup
+[info] 
+[info] First, let's associate this project directory with a Firebase project.
+[info] You can create multiple project aliases by running firebase use --add, 
+[info] but for now we'll just set up a default project.
+[info] 
+[debug] [2021-05-23T10:54:37.039Z] >>> [apiv2][query] GET https://firebase.googleapis.com/v1beta1/projects pageSize=100
+[debug] [2021-05-23T10:54:38.104Z] <<< [apiv2][status] GET https://firebase.googleapis.com/v1beta1/projects 200
+[debug] [2021-05-23T10:54:38.105Z] <<< [apiv2][body] GET https://firebase.googleapis.com/v1beta1/projects [omitted]
+[info] i  Using project weight-tracking-b1541 (Weight Tracking) 
+[info] 
+=== Hosting Setup
+[info] 
+[info] Your public directory is the folder (relative to your project directory) that
+[info] will contain Hosting assets to be uploaded with firebase deploy. If you
+[info] have a build process for your assets, use your build's output directory.
+[info] 
+[info] +  Wrote public/404.html 
+[debug] [2021-05-23T10:54:56.156Z] >>> [apiv2][query] GET https://www.gstatic.com/firebasejs/releases.json [none]
+[debug] [2021-05-23T10:54:56.485Z] <<< [apiv2][status] GET https://www.gstatic.com/firebasejs/releases.json 200
+[debug] [2021-05-23T10:54:56.486Z] <<< [apiv2][body] GET https://www.gstatic.com/firebasejs/releases.json {"current":{"version":"8.6.2","browserURL":"https://www.gstatic.com/firebasejs/8.6.2/firebase.js","packageURL":"https://www.gstatic.com/firebasejs/8.6.2/firebase.tgz"},"live":{"version":"8.6","browserURL":"https://www.gstatic.com/firebasejs/live/8.6/firebase.js","packageURL":"https://www.gstatic.com/firebasejs/live/8.6/firebase.tgz"},"components":{"analytics":"https://www.gstatic.com/firebasejs/8.6.2/firebase-analytics.js","app":"https://www.gstatic.com/firebasejs/8.6.2/firebase-app.js","app-check":"https://www.gstatic.com/firebasejs/8.6.2/firebase-app-check.js","auth":"https://www.gstatic.com/firebasejs/8.6.2/firebase-auth.js","database":"https://www.gstatic.com/firebasejs/8.6.2/firebase-database.js","firestore":"https://www.gstatic.com/firebasejs/8.6.2/firebase-firestore.js","functions":"https://www.gstatic.com/firebasejs/8.6.2/firebase-functions.js","installations":"https://www.gstatic.com/firebasejs/8.6.2/firebase-installations.js","messaging":"https://www.gstatic.com/firebasejs/8.6.2/firebase-messaging.js","storage":"https://www.gstatic.com/firebasejs/8.6.2/firebase-storage.js","performance":"https://www.gstatic.com/firebasejs/8.6.2/firebase-performance.js","remote-config":"https://www.gstatic.com/firebasejs/8.6.2/firebase-remote-config.js","firestore.memory":"https://www.gstatic.com/firebasejs/8.6.2/firebase-firestore.memory.js"}}
+[info] +  Wrote public/index.html 
+[info] 
+[info] i  Detected a .git folder at C:\Users\91700\Desktop\weight 
+[info] i  Authorizing with GitHub to upload your service account to a GitHub repository's secrets store. 
+[info] 
+[info] Visit this URL on this device to log in:
+[info] https://github.com/login/oauth/authorize?client_id=89cf50f02ac6aaed3484&state=490336638&redirect_uri=http%3A%2F%2Flocalhost%3A9005&scope=read%3Auser%20repo%20public_repo
+[info] 
+[info] Waiting for authentication...
+[debug] [2021-05-23T10:55:08.828Z] >>> HTTP REQUEST POST https://github.com/login/oauth/access_token  
+ {"client_id":"89cf50f02ac6aaed3484","client_secret":"3330d14abc895d9a74d5f17cd7a00711fa2c5bf0","code":"dd65a311fe5af41879f0","redirect_uri":"http://localhost:9005","state":"490336638"}
+[debug] [2021-05-23T10:55:09.361Z] <<< HTTP RESPONSE 200 {"server":"GitHub.com","date":"Sun, 23 May 2021 10:55:08 GMT","content-type":"application/json; charset=utf-8","transfer-encoding":"chunked","vary":"X-PJAX, Accept-Encoding, Accept, X-Requested-With","permissions-policy":"interest-cohort=()","etag":"W/\"f9f451f4a804e6e951956d9642195749\"","cache-control":"max-age=0, private, must-revalidate","strict-transport-security":"max-age=31536000; includeSubdomains; preload","x-frame-options":"deny","x-content-type-options":"nosniff","x-xss-protection":"0","referrer-policy":"origin-when-cross-origin, strict-origin-when-cross-origin","expect-ct":"max-age=2592000, report-uri=\"https://api.github.com/_private/browser/errors\"","content-security-policy":"default-src 'none'; base-uri 'self'; block-all-mixed-content; connect-src 'self' uploads.github.com www.githubstatus.com collector.githubapp.com api.github.com github-cloud.s3.amazonaws.com github-production-repository-file-5c1aeb.s3.amazonaws.com github-production-upload-manifest-file-7fdce7.s3.amazonaws.com github-production-user-asset-6210df.s3.amazonaws.com cdn.optimizely.com logx.optimizely.com/v1/events wss://alive.github.com; font-src github.githubassets.com; form-action 'self' github.com gist.github.com; frame-ancestors 'none'; frame-src render.githubusercontent.com; img-src 'self' data: github.githubassets.com identicons.github.com collector.githubapp.com github-cloud.s3.amazonaws.com secured-user-images.githubusercontent.com/ *.githubusercontent.com; manifest-src 'self'; media-src 'none'; script-src github.githubassets.com; style-src 'unsafe-inline' github.githubassets.com; worker-src github.com/socket-worker-3f088aa2.js gist.github.com/socket-worker-3f088aa2.js","x-github-request-id":"7EBC:30EB:D1DDBA:E6286B:60AA348C"}
+[debug] [2021-05-23T10:55:09.422Z] >>> [apiv2][query] GET https://api.github.com/user [none]
+[debug] [2021-05-23T10:55:09.994Z] <<< [apiv2][status] GET https://api.github.com/user 200
+[debug] [2021-05-23T10:55:09.994Z] <<< [apiv2][body] GET https://api.github.com/user {"login":"DeadSpoon18","id":58849158,"node_id":"MDQ6VXNlcjU4ODQ5MTU4","avatar_url":"https://avatars.githubusercontent.com/u/58849158?v=4","gravatar_id":"","url":"https://api.github.com/users/DeadSpoon18","html_url":"https://github.com/DeadSpoon18","followers_url":"https://api.github.com/users/DeadSpoon18/followers","following_url":"https://api.github.com/users/DeadSpoon18/following{/other_user}","gists_url":"https://api.github.com/users/DeadSpoon18/gists{/gist_id}","starred_url":"https://api.github.com/users/DeadSpoon18/starred{/owner}{/repo}","subscriptions_url":"https://api.github.com/users/DeadSpoon18/subscriptions","organizations_url":"https://api.github.com/users/DeadSpoon18/orgs","repos_url":"https://api.github.com/users/DeadSpoon18/repos","events_url":"https://api.github.com/users/DeadSpoon18/events{/privacy}","received_events_url":"https://api.github.com/users/DeadSpoon18/received_events","type":"User","site_admin":false,"name":"Kartik Singh","company":null,"blog":"","location":null,"email":null,"hireable":null,"bio":"MERN is the new heart.","twitter_username":null,"public_repos":28,"public_gists":1,"followers":3,"following":9,"created_at":"2019-12-13T11:31:38Z","updated_at":"2021-05-21T14:40:08Z","private_gists":0,"total_private_repos":2,"owned_private_repos":1,"disk_usage":10264,"collaborators":0,"two_factor_authentication":false,"plan":{"name":"free","space":976562499,"collaborators":0,"private_repos":10000}}
+[info] 
+[info] +  Success! Logged into GitHub as DeadSpoon18 
+[info] 
