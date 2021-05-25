@@ -59,6 +59,7 @@ const HomeScreen = ({ history }) => {
           placeholder="Enter Weight (Kg)"
           type="number"
           min="0"
+          required
         />
         <button>
           <i className="fas fa-plus"></i>
